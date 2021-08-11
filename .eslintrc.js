@@ -11,7 +11,7 @@ module.exports = {
     },
   },
   parser: 'babel-eslint',
-  plugins: ['react', 'prettier'],
+  plugins: ['react', 'prettier', 'import'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -25,5 +25,6 @@ module.exports = {
     'no-console': 'off',
     'no-alert': 'off',
     'no-underscore-dangle': 'off',
+    'import/no-named-as-default': 0,
   },
 };
